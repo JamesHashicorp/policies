@@ -1,3 +1,7 @@
+module "tfplan-functions" {
+  source = "./tfplan-functions.sentinel"
+}
+
 policy "less-than-100-month" {
   enforcement_level = "advisory"
 }
